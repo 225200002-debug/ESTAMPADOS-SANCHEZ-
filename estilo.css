@@ -1,0 +1,105 @@
+body{
+	font-family: Arial, sans-serif;
+	background: #f5f0e8;
+	justify-content: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+h3{
+	font-family: 'playfair display', serif;
+	font-size: 50px;
+}
+
+.servicios{
+	width: 1500px;
+	text-align: center;
+	background: #efe6d8;
+	padding: 20px;
+	border-radius: 20px;
+	font-family: 'playfair display', serif;
+	margin: auto;
+	margin-bottom: 50px;
+	}
+
+h1{
+	font-size: 40px;
+	letter-spacing: 2px;
+
+}
+.subtitulo{
+	font-family: 'dancing script', cursive;
+	color: #777;
+	margin-bottom: 20px;
+	font-size: 30px;
+
+}
+
+.productos{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+.articulos{
+	background: white;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.articulos img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+h2{
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 5px;
+}
+a {
+	font-family: 'dancing script', cursive;
+	color: #0C0A09;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+.redessociales{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	font-family: 'playfair display', serif;
+	font-size: 20px;
+}
+
+.contactos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.contactos img{
+	mix-blend-mode: multiply;
+	gap: 60px;
+}
+
+p{
+	font-family: 'dancing script', cursive;
+	color: #777;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+.contactos h3{
+	font-family: 'playfair display', serif;
+	font-size: 30px;
+}
+
+
